@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Whatsapp Clone</title>
+    <link rel="icon" href="icon.png">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+        integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- Header -->
+    <div class="container">
+        <div class="whatapp-Box">
+            <div class="header">
+                <div class="header-top">
+                    <h4>WhatsApp</h4>
+                    <div class="icons">
+                        <i class="fa fa-search"></i>
+                        <i class="fa fa-camera"></i>
+                        <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+                    </div>
+                </div>
+                <div class="header-bottom">
+                    <button id="user"><i class="fa fa-users"></i></button>
+                    <button id="chats" class="active">Chats</button>
+                    <button id="status">Status</button>
+                    <button id="calls">Calls</button>
+                </div>
+            </div>
+            <!-- Header -->
+
+            <!-- Main Screen -->
+            <div class="screen">
+                <div class="chats">
+                    <ul>
+                        <li>
+                            <div class="profile_section">
+                                <img src="Profile 1.png" alt="">
+                            </div>
+                            <div class="contact_section">
+                                <h5>Sai Prasad</h5>
+                                <small>How are you bro?</small>
+                            </div>
+                            <div class="message-section">
+                                <small class="time">10:00 am</small>
+                                <small class="count">2</small>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="profile_section">
+                                <img src="Profile 2.png" alt="">
+                            </div>
+                            <div class="contact_section">
+                                <h5>Ashrith</h5>
+                                <small>Done 👍</small>
+                            </div>
+                            <div class="message-section">
+                                <small class="time">10:40 am</small>
+                                <!-- <small class="count">2</small> -->
+                            </div>
+                        </li>
+                        <li>
+                            <div class="profile_section">
+                                <img src="Profile 3.png" alt="">
+                            </div>
+                            <div class="contact_section">
+                                <h5>Mamatha</h5>
+                                <small>Send Pdf</small>
+                            </div>
+                            <div class="message-section">
+                                <small class="time">9:50 am</small>
+                                <small class="count">5</small>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="profile_section">
+                                <img src="Profile 5.png" alt="">
+                            </div>
+                            <div class="contact_section">
+                                <h5>Shreya</h5>
+                                <small>Ok😂😂</small>
+                            </div>
+                            <div class="message-section">
+                                <small class="time">9:17 am</small>
+                                <small class="count">14</small>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="profile_section">
+                                <img src="Profile 4.png" alt="">
+                            </div>
+                            <div class="contact_section">
+                                <h5>Elon Musk</h5>
+                                <small>Join the G-Meet Asap!</small>
+                            </div>
+                            <div class="message-section">
+                                <small class="time">11:00 am</small>
+                                <small class="count">3</small>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="profile_section">
+                                <img src="Profile 2.png" alt="">
+                            </div>
+                            <div class="contact_section">
+                                <h5>Uday</h5>
+                                <small>send me the Link.</small>
+                            </div>
+                            <div class="message-section">
+                                <small class="time">7:40 am</small>
+                                <small class="count">3</small>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="profile_section">
+                                <img src="Profile 4.png" alt="">
+                            </div>
+                            <div class="contact_section">
+                                <h5>Mahesh</h5>
+                                <small>ok</small>
+                            </div>
+                            <div class="message-section">
+                                <small class="time">11:00 am</small>
+                                <small class="count">7</small>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="profile_section">
+                                <img src="Profile 3.png" alt="">
+                            </div>
+                            <div class="contact_section">
+                                <h5>Nikitha</h5>
+                                <small>Call after you are done</small>
+                            </div>
+                            <div class="message-section">
+                                <small class="time">11:17 am</small>
+                                <small class="count">1</small>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="profile_section">
+                                <img src="Profile Anupama.jpg" alt="">
+                            </div>
+                            <div class="contact_section">
+                                <h5>Anupama</h5>
+                                <small>Helloo!</small>
+                            </div>
+                            <div class="message-section">
+                                <small class="time">10:00 am</small>
+                                <small class="count">1</small>
+                            </div>
+                        </li>
+                    </ul>
+                    <!-- <button class="chatBtn"><i class="fa fa-commenting" aria-hidden="true"></i></button> -->
+                </div>
+            </div>
+            <!-- Main Screen -->
+            <!-- Chat Area Box -->
+            <div class="chat_area">
+                <div class="header_chat_area">
+                    <div class="profile_area">
+                        <i class="fa fa-arrow-left" id="arrow"></i>
+                        <img src="Profile 1.png" alt="">
+                        <div class="contact_area">
+                            <h5>Sai Prasad</h5>
+                            <small>online</small>
+                        </div>
+                    </div>
+                    <div class="call_icons">
+                        <i class="fa fa-phone"></i>
+                        <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+                    </div>
+                </div>
+                <div class="chat_screen">
+                    <div class="chat_texts">
+                        <p class="left_chat">Lorem, ipsum dolor.</p>
+                        <p class="right_chat">Lorem, ipsum dolor Lorem, ipsum.</p>
+                        <p class="left_chat">ok, Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem!</p>
+                        <p class="right_chat">Lorem, ipsum dolor Lorem, ipsum.</p>
+                        <p class="left_chat">Lorem, ipsum dolor.</p>
+                        <p class="right_chat">Lorem, ipsum dolor sit amet consectetur adipisicing..</p>
+                        <p class="left_chat">How are you bro?</p>                        
+                    </div>
+                </div>
+                <div class="input">
+                    <i class="fa fa-smile-o" aria-hidden="true"></i>
+                    <input type="text" placeholder="Message">
+                    <div class="more_icons">
+                      <i class="fa fa-paperclip" aria-hidden="true"></i>
+                      <i class="fa fa-inr" aria-hidden="true"></i>
+                      <i class="fa fa-camera" aria-hidden="true"></i>
+                    </div>
+                    <button class="mic"><i class="fa fa-microphone"></i></button>
+                  </div>
+            </div>
+            <!-- Chat Area Box -->
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
